@@ -1,0 +1,22 @@
+.interfacepac {
+    width: 100%;
+}
+
+.interfacepac h1 {
+    color: rgb(45, 115, 124);
+    padding: .7em;
+}
+
+.interfacepac h2 {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.interfacepac span{
+    font-size: 12pt;
+    color: #FFF;
+    font-weight: none;
+    margin-left: .3em;
+    padding: .1em .3em;
+    background-color: #01682f;
+}

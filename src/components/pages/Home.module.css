@@ -1,0 +1,27 @@
+.home_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    padding: 4em;
+}
+
+.home_container h1 {
+    color: rgb(45, 115, 124);
+    font-size: 2.5em;
+    margin-bottom: .2em;
+}
+
+.home_container span {
+    font-style: italic;
+}
+
+.home_container p {
+    margin-bottom: 4em;
+    color: #7b7b7b;
+}
+
+.buttons{
+    justify-content: space-between;
+}

@@ -1,0 +1,23 @@
+.title {
+    color: rgb(45, 115, 124);
+    padding: 2.5em 0;
+    margin-left: 2em;
+}
+
+.painel_de_decisao {
+    display: flex;
+    padding: 0 2em;
+    margin-bottom: .6em;
+}
+
+.temp_select {
+    display: flex;
+    width: 200px;
+    padding: .3em;
+    font-size: 16pt;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(45, 115, 124);
+    color: #FFF;
+}

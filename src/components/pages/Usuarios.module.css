@@ -1,0 +1,78 @@
+.user_container {
+    padding: 2em;
+}
+
+.title_container {
+    color: rgb(45, 115, 124);
+    margin-bottom: 2em;
+}
+
+.firstline {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: .7em;
+}
+
+.barra_pesquisa {
+    border: 2px solid rgb(45, 115, 124);
+    background-color: rgb(0, 141, 160);
+    color: white;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.inputpesq {
+    outline: none;
+    border: none;
+    background-color: rgb(47, 169, 185);
+    width: 45em;
+    border-radius: 13px;
+    padding: .7em;
+    font-size: 14pt;
+    color: #FFF;
+}
+
+.barra_pesquisa input::placeholder{
+    font-style: italic;
+    color: #ebebeb;
+}
+
+.barra_pesquisa label {
+    font-size: 13pt;
+}
+
+.radiobutton {
+    width: 1em;
+    height: 1em;
+    outline: none;
+    border: none;
+    background-color: rgb(47, 169, 185);
+    border-radius: 13px;
+    padding: .7em;
+    font-size: 13pt;
+    color: #FFF;
+    margin-left: .4em;
+    margin-right: 2em;
+}
+
+.btnbusc:hover {
+    padding: .8em;
+    color: #000;
+    background-color: rgb(5, 211, 238);
+}
+
+.btns {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.btns button{
+    background-color: rgb(45, 115, 124);
+    color: #FFF;
+    padding: .3em;
+    border-radius: .4em;
+    cursor: pointer;
+}

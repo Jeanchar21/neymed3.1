@@ -1,0 +1,97 @@
+.detalhes_usuario {
+    padding: 2em;
+}
+
+.detalhes_usuario h1 {
+    margin-right: 1em;
+    display: inline-flex;
+}
+
+.buttonedit {
+    display: inline-flex;
+    color: #FFF;
+    background-color: rgb(45, 115, 124);
+    padding: .7em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.divisoria {
+    display: inline-flex;
+}
+
+.esq {
+    display: block;
+    width: 30em;
+}
+
+.dir {
+    display: block;
+    width: 30em;
+}
+
+.buttonedit:hover{
+    color: rgb(84, 232, 252);
+}
+
+.inptdt {
+    font-size: 16pt;
+    width: 6em;
+}
+
+.inptdt::-webkit-calendar-picker-indicator{
+    display: none;
+    text-decoration: none;
+}
+
+.detalhes_usuario p {
+    font-size: 16pt;
+}
+
+.detalhes_usuario span{
+    font-weight: bold;
+    color: rgb(45, 115, 124);
+}
+
+.localcdd{
+    display: inline-flex;
+    font-weight: bold;
+    color: #FFF;
+    padding: .2em;
+    background-color: rgb(45, 115, 124);
+}
+
+.atv {
+    padding: .1em;
+    font-weight: bold;
+    color: #FFF;
+    background-color: rgb(45, 115, 124);
+    display: inline-flex;
+
+}
+
+.inatv {
+    padding: .1em;
+    font-weight: bold;
+    color: #FFF;
+    background-color: rgb(145, 12, 12);
+    display: inline-flex;
+}
+
+.deletebutton {
+    margin-top: 4em;
+    background-color: #c50e0e;
+    color: #FFF;
+    display: inline-flex;
+    background-color: #c50e0e;;
+    padding: .7em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.deletebutton:hover{
+    color: #c50e0e;
+    background-color: #c50e0e00;
+}

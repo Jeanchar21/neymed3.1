@@ -1,0 +1,35 @@
+.footer {
+    background-color: rgb(45, 115, 124);
+    color: #FFF;
+    padding: 3em;
+    text-align: center;
+}
+
+.lista_social {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.lista_social li {
+    margin: 0 1em;
+}
+
+.lista_social li:hover {
+    color: rgb(39, 195, 216);
+}
+
+.lista_social svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.marcadagua {
+    margin-top: 2em;
+}
+
+.marcadagua span{
+    font-weight: bold;
+    color:  #FFF;
+    font-style: italic;
+}

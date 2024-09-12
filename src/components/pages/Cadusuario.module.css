@@ -1,0 +1,10 @@
+.tot_div_lateral_esq {
+    display: inline-flex;
+    width: 25em;
+    padding: 0;
+}
+
+.tot_div_lateral_dir {
+    display: inline-flex;
+    padding: 0;
+}

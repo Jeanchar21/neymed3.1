@@ -1,0 +1,158 @@
+.interfaceate {
+    width: 100%;
+}
+
+.interfaceate h1 {
+    color: rgb(45, 115, 124);
+    padding: .7em;
+}
+
+.tittle{
+    font-size: 18pt;
+    color: #1d838a;
+}
+
+.formate{
+    flex-direction: column;
+    background-color: #efefef;
+    border-radius: 18px;
+    box-shadow: 3px 4px 2px 3px rgba(0, 0, 0, 0.336);
+}
+
+.inputstyl{
+    display: inline-flex;
+    padding: 0 1em;
+    width: auto;
+    margin-top: 1em;
+    margin-left: .1em;
+}
+
+.inputname {
+    margin-top: .4em;
+    padding: .5em;
+    border: none;
+    border-radius: 3px;
+    width: 30em;
+    font-size: 12pt;
+    height: auto;
+}
+
+.selectsala {
+    margin-top: .4em;
+    padding: .5em;
+    border: none;
+    border-radius: 3px;
+    width: 5em;
+    font-size: 12pt;
+    height: auto;
+}
+
+.selectstts {
+    margin-top: .4em;
+    padding: .5em;
+    border: none;
+    border-radius: 3px;
+    width: 12em;
+    font-size: 12pt;
+    height: auto;
+}
+
+.inputnmmedico{
+    margin-top: .4em;
+    padding: .5em;
+    border: none;
+    border-radius: 3px;
+    width: 18em;
+    font-size: 12pt;
+    height: auto;
+}
+
+.divsubtn{
+    text-align: center;
+    padding: 3em;
+}
+
+.subtn{
+    font-size: 12pt;
+    padding: .5em 3em;
+    border-radius: 8px;
+    border-color: rgb(45, 115, 124);
+    cursor: pointer;
+    color: rgb(45, 115, 124);
+    background-color: #efefef;
+    transition: .3s;
+}
+
+.subtn:hover{
+    color: #FFF;
+    border-color: #FFF;
+    background-color: rgb(45, 115, 124);
+}
+
+.decisions{
+    padding: 0 1.3em 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.decisions input{
+    margin-right: 1em;
+    text-align: center;
+}
+
+.inputnamesearch {
+    text-align: center;
+    margin-top: .4em;
+    padding: .5em;
+    border: none;
+    border-radius: 3px;
+    width: 50em;
+    font-size: 18pt;
+    height: auto;
+}
+
+.inputstyl2{
+    text-align: center;
+    width: 100%;
+    margin-top: 1em;
+    margin-left: .1em;
+}
+
+.list{
+    flex-direction: column;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.li {
+    text-align: justify;
+    color: black;
+    background-color: #eeeeee;
+    font-size: 18pt;
+    list-style: none;
+    padding: .8em 1em;
+    width: 100%;
+    cursor: pointer;
+}
+
+.interfaceate a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.interfaceate a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.li:hover {
+    background-color: #93d5e0;
+}
+
+.li span {
+    font-size: 10pt;
+    color: #ff4444;
+}

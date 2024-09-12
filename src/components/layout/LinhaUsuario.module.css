@@ -1,0 +1,60 @@
+.linhausuario{
+    width: 100%;
+    padding: .8em;
+    background-color: #afcfcf;
+    margin-bottom: .4em;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.linhausuario a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.linhausuario a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.linhausuario:hover{
+    background-color: #bdd8d8;
+    text-decoration: none;
+}
+
+.linha_div{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.linha_div p {
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+.dt_inscri {
+    width: 6.3em;
+    text-decoration: none;
+}
+
+.dt_inscri::-webkit-calendar-picker-indicator{
+    display: none;
+    text-decoration: none;
+}
+
+.ativs{
+    width: 3.7em;
+    height: 1.2em;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+.ativn{
+    width: 3.7em;
+    height: 1.2em;
+    text-align: center;
+    color: white;
+    background-color: rgb(161, 1, 1);
+}
